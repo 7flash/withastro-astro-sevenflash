@@ -1,0 +1,7 @@
+{
+  "name": "seven",
+  "exports": {
+    "./client.js": "./client.js",
+    "./package.json": "./package.json"
+  }
+}
