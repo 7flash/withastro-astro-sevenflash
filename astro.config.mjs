@@ -17,5 +17,8 @@ const sevenflashIntegration = () => {
 
 // https://astro.build/config
 export default defineConfig({
+  experimental: {
+    integrations: true,
+  },
   integrations: [preact(), sevenflashIntegration()],
 });
